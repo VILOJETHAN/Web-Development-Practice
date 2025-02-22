@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.container div{
+    color: white;
+    width: 200px;
+    padding: 10px;
+    flex-basis: 20%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
